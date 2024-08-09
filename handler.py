@@ -6,7 +6,7 @@ from constants import INTERVAL
 from save_load import save_data, load_data
 
 book = load_data()
-print("handler")
+
 
 @input_error
 def add_contact(args: List[str]) -> str:
